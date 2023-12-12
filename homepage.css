@@ -1,3 +1,17 @@
+/* General Style */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #2B213A; /* Dark grey for text */
+    background-color: #F5F5F5; /* Off-white background */
+}
+
+/* Header and Navigation */
+header {
+    background-color: #2B213A; /* Deep purple background */
+    color: #DAA520; /* Gold text */
+}
+
+/* Hero Section */
 .hero-section {
     background: url('http://placekitten.com/200/300') no-repeat center center;
     background-size: cover;
@@ -5,15 +19,208 @@
     display: flex;
     align-items: center; /* Vertically center content */
     justify-content: center; /* Horizontally center content */
-    color: #fff; /* Adjust based on your color scheme */
+    color: #fff; /* White text for contrast */
 }
 
 .hero-content {
-    max-width: 600px; /* Adjust as necessary */
+    max-width: 600px;
     margin: auto;
     padding: 15px;
+    background-color: rgba(43, 33, 58, 0.7); /* Semi-transparent background */
+    border-radius: 10px;
 }
 
 .hero-heading, .hero-subtext {
-    color: #DAA520; /* Gold color for text, adjust as needed */
+    color: #DAA520; /* Gold color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2, .subheading {
+    color: #2B213A; /* Deep purple */
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #DAA520; /* Gold background */
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #2B213A; /* Deep purple background */
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: #2B213A; /* Deep purple background */
+    color: #fff; /* White text */
+    padding: 20px 0;
+}
+
+/* Additional Styles */
+.img-fluid {
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* subtle shadow for cards */
+}
+
+.card-title {
+    color: #2B213A; /* Deep purple for card titles */
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.accordion .card-header {
+    background-color: #F5F5F5;
+    border: none;
+}
+
+.accordion .btn-link {
+    color: #2B213A; /* Deep purple for accordion links */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 50vh;
+    }
+
+    .hero-content {
+        padding: 10px;
+    }
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+  --primary-color: #2B213A;
+  --secondary-color: #DAA520;
+  --body-bg: #F5F5F5;
+  --box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* General Styles */  
+body {
+  font-family: Arial, sans-serif; 
+  color: var(--primary-color);
+  background-color: var(--body-bg);
+}  
+
+/* Header and Nav */
+header {
+  background-color: var(--primary-color);
+  color: var(--secondary-color); 
+  padding: 1rem;
+}
+
+/* Hero Section */
+.hero { 
+  background-image: url('http://placekitten.com/200/300');
+  background-size: cover; 
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.hero-content {
+  max-width: 600px;  
+  margin: auto;
+  padding: 1.5rem;
+  border-radius: 0.625rem;
+  background-color: rgba(43, 33, 58, 0.7);  
+}
+
+.heading {
+  color: var(--secondary-color);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);  
+}
+
+/* Buttons */
+.btn {
+  border: none;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  border-radius: 0.3125rem;  
+}
+
+.btn-primary {
+  background-color: var(--secondary-color);
+}   
+
+.btn-secondary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* Main Content */
+main {
+  padding: 1.25rem;
+} 
+
+section {
+  margin-bottom: 2.5rem;  
+}
+
+.subheading {
+  color: var(--primary-color);
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: white; 
+  padding: 1.25rem 0;
+  text-align: center; 
+}
+
+/* Card */
+.card {
+  border: none; 
+  box-shadow: var(--box-shadow);
+  border-radius: 0.625rem;
+}
+
+/* Accordion */  
+.accordion-header {
+  background-color: var(--body-bg);
+  border: none;
+}
+
+.accordion-link {
+  color: var(--primary-color);
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+
+  .hero {
+    height: 50vh;
+  }
+  
+  .hero-content {
+    padding: 1rem;
+  }
+
 }
