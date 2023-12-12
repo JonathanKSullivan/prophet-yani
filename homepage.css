@@ -13,7 +13,7 @@ header {
 
 /* Hero Section */
 .hero-section {
-    background: url('https://jonathanksullivan.github.io/prophet-yani/hero-background.webp') no-repeat center center;
+    background: url('https://jonathanksullivan.github.io/prophet-yani/image/hero-background.webp') no-repeat center center;
     background-size: cover;
     height: 100vh; /* Full viewport height */
     display: flex;
