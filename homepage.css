@@ -1,0 +1,19 @@
+.hero-section {
+    background: url('http://placekitten.com/200/300') no-repeat center center;
+    background-size: cover;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+    color: #fff; /* Adjust based on your color scheme */
+}
+
+.hero-content {
+    max-width: 600px; /* Adjust as necessary */
+    margin: auto;
+    padding: 15px;
+}
+
+.hero-heading, .hero-subtext {
+    color: #DAA520; /* Gold color for text, adjust as needed */
+}
