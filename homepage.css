@@ -20,6 +20,10 @@ body {
     background-color: #F5F5F5; /* Off-white background */
 }
 
+p {
+    font-family: "Hoefler Text"
+}
+
 /* Header and Navigation */
 header {
     background-color: #2B213A; /* Deep purple background */
