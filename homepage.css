@@ -1,5 +1,5 @@
 /* Import font */
-/* @import url(https://db.onlinewebfonts.com/c/45efcf93d0c9504aa316c9bb7ce66a2e?family=Pietra+LP+W01+Regular);
+@import url(https://db.onlinewebfonts.com/c/45efcf93d0c9504aa316c9bb7ce66a2e?family=Pietra+LP+W01+Regular);
 
 @font-face {
     font-family: "Pietra LP W01 Regular";
@@ -9,13 +9,13 @@
     url("https://db.onlinewebfonts.com/t/45efcf93d0c9504aa316c9bb7ce66a2e.woff")format("woff"),
     url("https://db.onlinewebfonts.com/t/45efcf93d0c9504aa316c9bb7ce66a2e.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/45efcf93d0c9504aa316c9bb7ce66a2e.svg#Pietra LP W01 Regular")format("svg");
-} */
+}
 
 
 /* General Style */
 body {
-/*     font-family: "Pietra LP W01 Regular"; */
-    font-family: 'Arial', sans-serif;
+    font-family: "Pietra LP W01 Regular";
+/*     font-family: 'Arial', sans-serif; */
     color: #2B213A; /* Dark grey for text */
     background-color: #F5F5F5; /* Off-white background */
 }
