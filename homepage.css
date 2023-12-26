@@ -137,7 +137,6 @@ footer {
 
 /* General Styles */  
 body {
-  font-family: Arial, sans-serif; 
   color: var(--primary-color);
   background-color: var(--body-bg);
 }  
